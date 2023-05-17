@@ -1,13 +1,13 @@
 import React from 'react';
 //import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
-import './assets/global-style/reset.css'
+import HomeHeder from './components/Heder/HomeHeder';
+import IndexHeder from './components/Heder/IndexHeder';
 
 function App() {
   return (
     <div className='Add'>
-
-
+      <HomeHeder/>
+    <IndexHeder/>
       {/* 
       <Router>
         <Routes>

@@ -1,0 +1,78 @@
+$barkBlue: #194484;
+$mediumBlue: #0d6eb7;
+$mediumBlue2: #276ed8;
+$lightBlue: #84b5ff;
+$darkGreen: #06b25f;
+$lightGreen: #66d6a0;
+$darkGrey: #242424;
+$white: #ffffff;
+
+.header1 {
+  font-family: "Harabara";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+  /* or 136% */
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: $barkBlue;
+}
+
+.header2 {
+  font-family: "Harabara";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 39px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: $barkBlue;
+}
+
+.header3 {
+  font-family: "Harabara";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 38px;
+  /* identical to box height, or 158% */
+
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: $mediumBlue;
+}
+
+.body {
+  font-family: "Montserrat";
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  color: $darkGrey;
+}
+
+.body2 {
+  font-family: "Montserrat-Bold";
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 36px;
+  /* or 225% */
+
+  text-transform: uppercase;
+
+  color: $darkGrey;
+}

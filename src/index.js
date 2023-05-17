@@ -5,7 +5,7 @@ import { createStore } from "redux";
 
 import App from "./App";
 import reducer from "./reducers/reducers";
-
+import './assets/global-style/style.scss'
 const store = createStore(reducer);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
