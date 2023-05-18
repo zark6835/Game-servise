@@ -40,11 +40,17 @@
   }
   &__servises-list-item {
     &-index {
-      position: relative;
-      display: none;
+      position: absolute;
+      visibility: hidden;
+      opacity: 0;
+      transform: translateY(-10px);
+      transition: all 0.3s ease;
       &.open {
-        position: absolute;
-        display: block;
+        visibility: visible;
+        transform: translateY(0);
+        opacity: 1;
+        z-index: 3;
+
         padding: 12px 12px 15px 16px;
         background: $white;
         border-top: 4px solid #00a4e8;
@@ -53,13 +59,20 @@
     }
 
     &-home {
-      position: relative;
-      display: none;
+      position: absolute;
+      visibility: hidden;
+      opacity: 0;
+      transform: translateY(-10px);
+      transition: all 0.3s ease;
       &.open {
-        position: absolute;
-        display: block;
+        visibility: visible;
+        transform: translateY(0);
+        opacity: 1;
+        z-index: 3;
+
         padding: 12px 12px 15px 16px;
         background: $white;
+        border-top: 4px solid #00a4e8;
         background: rgba(33, 33, 33, 0.8);
         box-shadow: 2px 4px 16px rgba(158, 158, 158, 0.3);
       }
@@ -77,6 +90,9 @@
     &:first-child {
       cursor: pointer;
     }
+    &.open {
+      color: #44c9ff;
+    }
   }
   &-blue {
     color: $mediumBlue;
@@ -86,6 +102,9 @@
     }
     &:first-child {
       cursor: pointer;
+    }
+    &.open {
+      color: #00a4e8;
     }
   }
 }
