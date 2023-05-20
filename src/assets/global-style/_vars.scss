@@ -18,7 +18,7 @@ $white: #ffffff;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  color: $barkBlue;
+  color: $white;
 }
 
 .header2 {
@@ -75,4 +75,42 @@ $white: #ffffff;
   text-transform: uppercase;
 
   color: $darkGrey;
+}
+
+.button {
+  &-white {
+    width: 160px;
+    text-align: center;
+    padding: 5px 25px;
+    border: 2px solid $white;
+    border-radius: 6px;
+
+    font-family: "Montserrat-Bold";
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 36px;
+    text-transform: uppercase;
+  
+    color: $white;
+  }
+
+  &-green {
+    width: 165px;
+    text-align: center;
+    padding: 5px 25px;
+    border: 2px solid $darkGreen;
+    border-radius: 6px;
+    background-color: $darkGreen;
+    
+    font-family: "Montserrat-Bold";
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: $white;
+  }
 }
