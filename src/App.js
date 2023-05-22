@@ -1,15 +1,17 @@
-import React from 'react';
+import React from "react";
 //import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import HomeHeder from './components/Heder/HomeHeder';
-import MainSlider from './components/MainSlider/MainSlider';
-
+import HomeHeder from "./components/Heder/HomeHeder";
+import MainSlider from "./components/MainSlider/MainSlider";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
-    <div className='Add'>
-      <HomeHeder/>
-      <MainSlider/>
-
+    <div className="Add">
+      <HomeHeder />
+      <main>
+        <MainSlider />
+      </main>
+      <Footer />
       {/* 
       <Router>
         <Routes>
