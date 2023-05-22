@@ -4,6 +4,7 @@ import HomeHeder from "./components/Heder/HomeHeder";
 import MainSlider from "./components/MainSlider/MainSlider";
 import Footer from "./components/Footer/Footer";
 import Technologies from "./components/Technologies/Technologies";
+import Reviews from "./components/Reviews/Reviews";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <main>
         <MainSlider />
         <Technologies/>
+        <Reviews/>
       </main>
       <Footer />
       {/* 
