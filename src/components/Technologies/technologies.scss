@@ -1,0 +1,70 @@
+@import "../../assets/global-style/vars";
+.technologies {
+  margin-bottom: 120px;
+  
+  &__wrapper {
+    width: 900px;
+    margin: 60px auto 0;
+    padding: 0 15px;
+  }
+
+  &__paragraph {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+
+    color: $darkGrey;
+
+    &-lightBlue {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 38px;
+      text-align: center;
+
+      color: #00a4e8;
+    }
+    &-blue {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 38px;
+      text-align: center;
+
+      color: $barkBlue;
+    }
+  }
+
+  &__img {
+    &-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 80px;
+      margin: 30px;
+    }
+    &-android {
+      background: $darkGreen;
+      padding: 12px 16px;
+      box-shadow: 0px 4px 12px rgba(41, 24, 111, 0.2);
+      border-radius: 16px;
+    }
+    &-apple {
+      background: $mediumBlue2;
+      padding: 12px 16px 14px;
+      box-shadow: 0px 4px 12px rgba(41, 24, 111, 0.2);
+      border-radius: 16px;
+    }
+    &-unity {
+      background: $lightBlue;
+      padding: 12px 16px 12px 12px;
+      box-shadow: 0px 4px 12px rgba(41, 24, 111, 0.2);
+      border-radius: 16px;
+    }
+  }
+}

@@ -3,6 +3,7 @@ import React from "react";
 import HomeHeder from "./components/Heder/HomeHeder";
 import MainSlider from "./components/MainSlider/MainSlider";
 import Footer from "./components/Footer/Footer";
+import Technologies from "./components/Technologies/Technologies";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <HomeHeder />
       <main>
         <MainSlider />
+        <Technologies/>
       </main>
       <Footer />
       {/* 

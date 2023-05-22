@@ -18,7 +18,8 @@ const MainSlider = () => {
   };
 
   return (
-    <Slider {...settings}>
+   <section className="card__wrapper">
+     <Slider {...settings}>
       {data.map((item) => (
         <div className="card" key={item.id}>
           <img className="card__img" src={item.img} alt="" />
@@ -33,6 +34,7 @@ const MainSlider = () => {
         </div>
       ))}
     </Slider>
+   </section>
   );
 };
 
