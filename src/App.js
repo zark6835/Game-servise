@@ -5,6 +5,7 @@ import MainSlider from "./components/MainSlider/MainSlider";
 import Footer from "./components/Footer/Footer";
 import Technologies from "./components/Technologies/Technologies";
 import Reviews from "./components/Reviews/Reviews";
+import Services from "./components/Services/Services";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <MainSlider />
         <Technologies/>
         <Reviews/>
+        <Services/>
       </main>
       <Footer />
       {/* 

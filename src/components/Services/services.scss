@@ -1,0 +1,25 @@
+@import "../../assets/global-style/vars";
+
+.services{
+    margin-bottom: 62px;
+    &__card-wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+        margin-top: 23px;
+    }
+
+    &__card-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+    }
+
+    &__card-information{
+        display: flex;
+        gap: 4px;
+        flex-direction: column;
+        width: 553px;
+    }
+}
