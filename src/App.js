@@ -6,6 +6,7 @@ import Footer from "./components/Footer/Footer";
 import Technologies from "./components/Technologies/Technologies";
 import Reviews from "./components/Reviews/Reviews";
 import Services from "./components/Services/Services";
+import Partner from "./components/Partner/Partner";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Technologies/>
         <Reviews/>
         <Services/>
+        <Partner/>
       </main>
       <Footer />
       {/* 
