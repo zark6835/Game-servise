@@ -7,6 +7,7 @@ import Technologies from "./components/Technologies/Technologies";
 import Reviews from "./components/Reviews/Reviews";
 import Services from "./components/Services/Services";
 import Partner from "./components/Partner/Partner";
+import Achievements from "./components/Achievements/Achievements";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Reviews/>
         <Services/>
         <Partner/>
+        <Achievements/>
       </main>
       <Footer />
       {/* 
