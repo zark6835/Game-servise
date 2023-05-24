@@ -1,0 +1,29 @@
+@import "../../assets/global-style/vars";
+
+.partners {
+    background-image: url(../../assets/img/content/partners/partners-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 265px 0;
+  &__card {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 322px);
+    grid-template-rows: repeat(4, 160px);
+    column-gap: 24px;
+    row-gap: 40px;
+    margin-top: 80px;
+    &-item {
+      position: relative;
+      background: $white;
+      box-shadow: 0px 3px 16px 4px rgba(29, 51, 107, 0.1);
+      border-radius: 16px;
+    }
+    &-img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+  }
+}

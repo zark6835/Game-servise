@@ -1,6 +1,6 @@
-import android from "../../assets/img/content/technologies-android.png";
-import apple from "../../assets/img/content/technologies-apple.png";
-import unity from "../../assets/img/content/technologies-unity.png";
+import android from "../../assets/img/content/technologies/technologies-android.png";
+import apple from "../../assets/img/content/technologies/technologies-apple.png";
+import unity from "../../assets/img/content/technologies/technologies-unity.png";
 
 import "./technologies.scss";
 

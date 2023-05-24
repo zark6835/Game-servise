@@ -8,6 +8,7 @@ import Reviews from "./components/Reviews/Reviews";
 import Services from "./components/Services/Services";
 import Partner from "./components/Partner/Partner";
 import Achievements from "./components/Achievements/Achievements";
+import Partners from "./components/Partners/Partners";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Services/>
         <Partner/>
         <Achievements/>
+        <Partners/>
       </main>
       <Footer />
       {/* 

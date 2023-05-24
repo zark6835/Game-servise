@@ -1,6 +1,6 @@
-import clutch from '../../assets/img/content/reviews-clutch.png'
-import star from '../../assets/img/content/reviews-star.png'
-import halfStar from '../../assets/img/content/reviews-halfStar.png'
+import clutch from '../../assets/img/content/reviews/reviews-clutch.png'
+import star from '../../assets/img/content/reviews/reviews-star.png'
+import halfStar from '../../assets/img/content/reviews/reviews-halfStar.png'
 
 import './reviews.scss'
 

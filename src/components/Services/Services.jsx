@@ -1,7 +1,7 @@
-import img1 from '../../assets/img/content/services-img1.png'
-import img2 from '../../assets/img/content/services-img2.png'
-import img3 from '../../assets/img/content/services-img3.png'
-import img4 from '../../assets/img/content/services-img4.png'
+import img1 from '../../assets/img/content/services/services-img1.png'
+import img2 from '../../assets/img/content/services/services-img2.png'
+import img3 from '../../assets/img/content/services/services-img3.png'
+import img4 from '../../assets/img/content/services/services-img4.png'
 
 import "./services.scss";
 

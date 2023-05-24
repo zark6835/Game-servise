@@ -1,9 +1,9 @@
 import logo from "../../assets/img/footer-logo.png";
-import facebook from "../../assets/img/content/footer-facebook.svg";
-import linkedin from "../../assets/img/content/footer-linkedin.svg";
-import whatsApp from "../../assets/img/content/footer-whatsApp.svg";
-import skype from "../../assets/img/content/footer-skype.svg";
-import github from "../../assets/img/content/footer-github.svg";
+import facebook from "../../assets/img/content/footer/footer-facebook.svg";
+import linkedin from "../../assets/img/content/footer/footer-linkedin.svg";
+import whatsApp from "../../assets/img/content/footer/footer-whatsApp.svg";
+import skype from "../../assets/img/content/footer/footer-skype.svg";
+import github from "../../assets/img/content/footer/footer-github.svg";
 
 import "./footer-styles.scss";
 

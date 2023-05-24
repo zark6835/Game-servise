@@ -1,8 +1,6 @@
 @import "../../assets/global-style/vars";
 
 .footer {
-
-
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -16,7 +14,7 @@
   &__list {
     padding-top: 18px;
     &-margin {
-      padding-top: 112px;
+      padding-top: 170px;
       background-image: url(../../assets/img/footer-blue-bg.png);
       background-repeat: no-repeat;
       background-position: bottom;
