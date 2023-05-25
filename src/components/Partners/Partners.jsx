@@ -2,7 +2,6 @@ import partnersData from '../../data/partnersData';
 import "./partners.scss";
 
 const Partners = () => {
-    console.log(partnersData);
   return (
     <section className="partners">
       <h2 className="header2">Partners</h2>

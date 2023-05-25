@@ -1,38 +1,18 @@
 import React from "react";
-//import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import HomeHeder from "./components/Heder/HomeHeder";
-import MainSlider from "./components/MainSlider/MainSlider";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import Index from "./pages/index";
 import Footer from "./components/Footer/Footer";
-import Technologies from "./components/Technologies/Technologies";
-import Reviews from "./components/Reviews/Reviews";
-import Services from "./components/Services/Services";
-import Partner from "./components/Partner/Partner";
-import Achievements from "./components/Achievements/Achievements";
-import Partners from "./components/Partners/Partners";
 
 function App() {
   return (
     <div className="Add">
-      <HomeHeder />
-      <main>
-        <MainSlider />
-        <Technologies/>
-        <Reviews/>
-        <Services/>
-        <Partner/>
-        <Achievements/>
-        <Partners/>
-      </main>
-      <Footer />
-      {/* 
       <Router>
         <Routes>
-          <Route path="/" element={<PostsList />} />
-          <Route path="/todolist" element={<TodoList />} />
-          <Route path="/userlist" element={<UserList />} />
+          <Route path="/" element={<Index/>} />
         </Routes>
       </Router>
-      */}
+      <Footer />
     </div>
   );
 }
