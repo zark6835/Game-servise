@@ -1,0 +1,16 @@
+@import "../../assets/global-style/vars";
+
+.information{
+    display: flex;
+    gap: 140px;
+    margin: 0 auto 90px !important;
+    &__wrapper{
+        & h2.header2{
+            text-align: start;
+            color: $mediumBlue;
+        }
+        & p.body{
+            margin-top: 16px;
+        }
+    }
+}

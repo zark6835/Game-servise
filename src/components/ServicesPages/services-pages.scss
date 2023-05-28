@@ -1,0 +1,51 @@
+@import "../../assets/global-style/vars";
+
+.services {
+  margin: 190px 0 250px;
+  &__card {
+    display: grid;
+    grid-template-columns: repeat(4, 322px);
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    grid-gap: 60px 24px;
+
+    &-item {
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+      gap: 60px;
+      padding: 33px 21px;
+      height: 320px;
+
+      background: #f4f8fd;
+      box-shadow: 0px 3px 16px 4px rgba(29, 51, 107, 0.1);
+      border-radius: 16px;
+      transition: 1s;
+
+      &:hover {
+        background: #f4f8fd;
+        box-shadow: 0px 3px 16px 4px rgba(29, 51, 107, 0.1);
+      }
+    }
+
+    &-img{
+        height: 115px;
+        margin: 0 auto;
+    }
+
+    &-paragraph {
+      font-family: "Harabara";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 30px;
+
+      text-align: center;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+
+      color: $mediumBlue;
+    }
+  }
+}

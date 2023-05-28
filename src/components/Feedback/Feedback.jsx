@@ -1,9 +1,9 @@
-import contacst__location from '../../assets/img/content/contacsts/contacts-location.png'
-import contacst__tel from '../../assets/img/content/contacsts/contacts-tel.png'
-import contacst__whatsApp from '../../assets/img/content/contacsts/contacts-whatsApp.png'
-import contacst__skype from '../../assets/img/content/contacsts/contacts-skype.png'
-import contacst__email from '../../assets/img/content/contacsts/contacts-email.png'
-import contacst__facebook from '../../assets/img/content/contacsts/contacts-facebook.png'
+import contacst__location from '../../assets/img/content/feedback/contacts-location.png'
+import contacst__tel from '../../assets/img/content/feedback/contacts-tel.png'
+import contacst__whatsApp from '../../assets/img/content/feedback/contacts-whatsApp.png'
+import contacst__skype from '../../assets/img/content/feedback/contacts-skype.png'
+import contacst__email from '../../assets/img/content/feedback/contacts-email.png'
+import contacst__facebook from '../../assets/img/content/feedback/contacts-facebook.png'
 
 import "./feedback.scss";
 

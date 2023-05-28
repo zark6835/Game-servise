@@ -1,11 +1,11 @@
-import img1 from '../../assets/img/content/services/services-img1.png'
-import img2 from '../../assets/img/content/services/services-img2.png'
-import img3 from '../../assets/img/content/services/services-img3.png'
-import img4 from '../../assets/img/content/services/services-img4.png'
+import img1 from '../../assets/img/content/services-home/services-img1.png'
+import img2 from '../../assets/img/content/services-home/services-img2.png'
+import img3 from '../../assets/img/content/services-home/services-img3.png'
+import img4 from '../../assets/img/content/services-home/services-img4.png'
 
-import "./services.scss";
+import "./services-home.scss";
 
-const Services = () => {
+const ServicesHome = () => {
   return (
     <section className='services'>
       <h2 className='header2'>Services</h2>
@@ -91,4 +91,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default ServicesHome;

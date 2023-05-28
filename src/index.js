@@ -5,12 +5,15 @@ import { createStore } from "redux";
 
 import App from "./App";
 import reducer from "./reducers/reducers";
-import './assets/global-style/style.scss'
+import "./assets/global-style/style.scss";
+import { BrowserRouter } from "react-router-dom";
 const store = createStore(reducer);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <Provider store={store}>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </Provider>
 );
