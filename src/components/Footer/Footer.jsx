@@ -13,9 +13,9 @@ const Footer = () => {
       <div className="footer__list-margin">
         <ul className="footer__list-wrapper container">
           <li className="footer__list-social">
-            <a href="#">
-              <img src={logo} alt="" />
-            </a>
+          <a href="/">
+            <img src={logo} alt="logo" />
+          </a>
             <ul className="footer__list-item-social">
               <li>
                 <a href="#">
@@ -49,27 +49,13 @@ const Footer = () => {
               <h2 className="footer-title">SERVICES</h2>
             </div>
             <ul className="footer__list-item">
-              <li>
-                <a className="footer-paragraph" href="#">MOBILE APPLICATION DEVELOPMENT</a>
-              </li>
-              <li>
-                <a className="footer-paragraph" href="#">GAME DEVELOPMENT OUTSOURCING</a>
-              </li>
-              <li>
-                <a className="footer-paragraph" href="#">VR APP DEVELOPMENT</a>
-              </li>
-              <li>
-                <a className="footer-paragraph" href="#">DEDICATED DEVELOPERS</a>
-              </li>
-              <li>
-                <a className="footer-paragraph" href="#">SDK DEVELOPMENT</a>
-              </li>
-              <li>
-                <a className="footer-paragraph" href="#">3D MODELING SERVICES</a>
-              </li>
-              <li>
-                <a className="footer-paragraph" href="#">AR APP DEVELOPMENT</a>
-              </li>
+            <li><a href="/mobile-devrlopment" className="footer-paragraph">MOBILE APPLICATION DEVELOPMENT</a></li>
+              <li><a href="/game-devrlopment" className="footer-paragraph">GAME DEVELOPMENT OUTSOURCING</a></li>
+              <li><a href="/vr-devrlopment" className="footer-paragraph">VR APP DEVELOPMENT</a></li>
+              <li><a href="/dedicated-devrlopment" className="footer-paragraph">DEDICATED DEVELOPERS</a></li>
+              <li><a href="/sdk-devrlopment" className="footer-paragraph">SDK DEVELOPMENT</a></li>
+              <li><a href="/sdk-modelings" className="footer-paragraph">3D MODELING SERVICES</a></li>
+              <li><a href="/app-devrlopment" className="footer-paragraph">AR APP DEVELOPMENT</a></li>
             </ul>
           </li>
           <li>

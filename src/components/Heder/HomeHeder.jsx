@@ -40,55 +40,43 @@ const HomeHeder = () => {
             <ul className="Heder__list">
               <li className="Heder__list-item">
                 <div className="Heder__servises-list home">
-                  <p
-                    className={`body2 color-white ${
-                      servisesOpen ? "open" : ""
-                    }`}
-                    onClick={openMenuServises}
-                  >
+                  <p className={`body2 color-white ${servisesOpen ? "open" : ""}`} onClick={openMenuServises}>
                     SERVICES
                   </p>
                 </div>
-                <ul
-                  className={`Heder__servises-list-item-home ${
-                    servisesOpen ? "open" : ""
-                  }`}
-                >
+                <ul className={`Heder__servises-list-item-home ${servisesOpen ? "open" : ""}`}>
                   <li>
-                    <Link
-                      className="body2 color-white"
-                      to="/mobile-devrlopment"
-                    >
+                    <Link to="/mobile-devrlopment" className="body2 color-white">
                       MOBILE APPLICATION DEVELOPMENT
                     </Link>
                   </li>
                   <li>
-                    <Link to="/game-devrlopment" className="body2 color-white" href="#">
+                    <Link to="/game-devrlopment" className="body2 color-white">
                       GAME DEVELOPMENT OUTSOURCING
                     </Link>
                   </li>
                   <li>
-                    <Link to="/vr-devrlopment" className="body2 color-white" href="#">
+                    <Link to="/vr-devrlopment" className="body2 color-white">
                       VR APP DEVELOPMENT
                     </Link>
                   </li>
                   <li>
-                    <Link to="/dedicated-devrlopment" className="body2 color-white" href="#">
+                    <Link to="/dedicated-devrlopment" className="body2 color-white">
                       DEDICATED DEVELOPERS
                     </Link>
                   </li>
                   <li>
-                    <Link to="/sdk-devrlopment" className="body2 color-white" href="#">
+                    <Link to="/sdk-devrlopment" className="body2 color-white">
                       SDK DEVELOPMENT
                     </Link>
                   </li>
                   <li>
-                    <Link to="/sdk-modelings" className="body2 color-white" href="#">
+                    <Link to="/sdk-modelings" className="body2 color-white">
                       3D MODELING SERVICES
                     </Link>
                   </li>
                   <li>
-                    <Link to="/app-devrlopment" className="body2 color-white" href="#">
+                    <Link to="/app-devrlopment" className="body2 color-white">
                       AR APP DEVELOPMENT
                     </Link>
                   </li>
@@ -96,20 +84,11 @@ const HomeHeder = () => {
               </li>
               <li className="Heder__list-item">
                 <div className="Heder__servises-list home">
-                  <p
-                    className={`body2 color-white ${
-                      technologiesOpen ? "open" : ""
-                    }`}
-                    onClick={openMenuTechnologies}
-                  >
+                  <p className={`body2 color-white ${technologiesOpen ? "open" : ""}`} onClick={openMenuTechnologies}>
                     TECHNOLOGIES
                   </p>
                 </div>
-                <ul
-                  className={`Heder__servises-list-item-home ${
-                    technologiesOpen ? "open" : ""
-                  }`}
-                >
+                <ul className={`Heder__servises-list-item-home ${technologiesOpen ? "open" : ""}`}>
                   <li>
                     <a className="body2 color-white" href="#">
                       ANDROID
@@ -181,6 +160,7 @@ const HomeHeder = () => {
         </div>
       </header>
     </>
+    
   );
 };
 

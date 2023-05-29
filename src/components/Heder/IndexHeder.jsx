@@ -1,6 +1,7 @@
 import { useState } from "react";
 import logo from "../../assets/img/index-logo.png";
 import "./header-styles.scss";
+import { Link } from "react-router-dom";
 
 
 const IndexHeder = () => {
@@ -25,22 +26,22 @@ const IndexHeder = () => {
     return ( 
         <header className="Index-Heder__bg">
         <div className="Heder__wrapper container">
-          <a href="#" className="Heder__logo">
+          <Link to="/" className="Heder__logo">
             <img src={logo} alt="logo" />
-          </a>
+          </Link>
           <ul className="Heder__list">
           <li className="Heder__list-item">
             <div className="Heder__servises-list">
               <p className={`body2 color-blue ${servisesOpen ? 'open' : ''}`} onClick={openMenuServises}>SERVICES</p>
             </div>
             <ul className={`Heder__servises-list-item-index ${servisesOpen ? 'open' : ''}`}>
-              <li><a className="body2 color-blue" href="#">MOBILE APPLICATION DEVELOPMENT</a></li>
-              <li><a className="body2 color-blue" href="#">GAME DEVELOPMENT OUTSOURCING</a></li>
-              <li><a className="body2 color-blue" href="#">VR APP DEVELOPMENT</a></li>
-              <li><a className="body2 color-blue" href="#">DEDICATED DEVELOPERS</a></li>
-              <li><a className="body2 color-blue" href="#">SDK DEVELOPMENT</a></li>
-              <li><a className="body2 color-blue" href="#">3D MODELING SERVICES</a></li>
-              <li><a className="body2 color-blue" href="#">AR APP DEVELOPMENT</a></li>
+              <li><Link to="/mobile-devrlopment" className="body2 color-blue">MOBILE APPLICATION DEVELOPMENT</Link></li>
+              <li><Link to="/game-devrlopment" className="body2 color-blue">GAME DEVELOPMENT OUTSOURCING</Link></li>
+              <li><Link to="/vr-devrlopment" className="body2 color-blue">VR APP DEVELOPMENT</Link></li>
+              <li><Link to="/dedicated-devrlopment" className="body2 color-blue">DEDICATED DEVELOPERS</Link></li>
+              <li><Link to="/sdk-devrlopment" className="body2 color-blue">SDK DEVELOPMENT</Link></li>
+              <li><Link to="/sdk-modelings" className="body2 color-blue">3D MODELING SERVICES</Link></li>
+              <li><Link to="/app-devrlopment" className="body2 color-blue">AR APP DEVELOPMENT</Link></li>
             </ul>
           </li>
           <li className="Heder__list-item">
