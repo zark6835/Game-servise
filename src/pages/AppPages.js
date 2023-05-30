@@ -5,7 +5,8 @@ import TextInformation from "../components/TextInformation/TextInformation";
 import ServicesPages from "../components/ServicesPages/ServicesPages";
 import Partner from "../components/Partner/Partner";
 import Feedback from "../components/Feedback/Feedback"
-import Projects from "../components/Projects/Projects";
+import ProjectsSlider from "../components/ProjectsSlider/ProjectsSlider";
+
 
 const AppPages = () => {
   return (
@@ -19,7 +20,7 @@ const AppPages = () => {
         <Partner/>
         <TextInformation/>
         <Feedback/>
-        <Projects/>
+        <ProjectsSlider/>
       </main>
     </>
   );

@@ -45,13 +45,13 @@ const Contacst = () => {
           </li>
           <li className='contacst__list-item-wrapper'>
             <img src={contacst__skype} alt="" />
-            <a className="contacst__list-item" href="Stanassets">
+            <a className="contacst__list-item" href="#">
               Stanassets
             </a>
           </li>
           <li className='contacst__list-item-wrapper'>
             <img src={contacst__email} alt="" />
-            <a className="contacst__list-item" href="stanAssets@gmail.com">
+            <a className="contacst__list-item" href="mailto:stanAssets@gmail.com">
               stanAssets@gmail.com
             </a>
           </li>

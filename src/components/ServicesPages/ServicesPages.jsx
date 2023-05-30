@@ -10,36 +10,36 @@ import './services-pages.scss'
 
 const ServicesPages = () => {
     return ( 
-        <section className='services'>
+        <section className='servicesPages'>
             <h2 className='header2'>Services</h2>
-            <ul className='services__card'>
-                <li className='services__card-item'>
-                    <img className='services__card-img' src={tel} alt="" />
-                    <p className='services__card-paragraph'>Mobile Application Development</p>
+            <ul className='servicesPages__card'>
+                <li className='servicesPages__card-item'>
+                    <img className='servicesPages__card-img' src={tel} alt="" />
+                    <p className='servicesPages__card-paragraph'>Mobile Application Development</p>
                 </li>
-                <li className='services__card-item'>
-                    <img className='services__card-img' src={controller} alt="" />
-                    <p className='services__card-paragraph'>Game development outsourcing</p>
+                <li className='servicesPages__card-item'>
+                    <img className='servicesPages__card-img' src={controller} alt="" />
+                    <p className='servicesPages__card-paragraph'>Game development outsourcing</p>
                 </li>
-                <li className='services__card-item'>
-                    <img className='services__card-img' src={vr} alt="" />
-                    <p className='services__card-paragraph'>vr app development</p>
+                <li className='servicesPages__card-item'>
+                    <img className='servicesPages__card-img' src={vr} alt="" />
+                    <p className='servicesPages__card-paragraph'>vr app development</p>
                 </li>
-                <li className='services__card-item'>
-                    <img className='services__card-img' src={development} alt="" />
-                    <p className='services__card-paragraph'>Dedicated Developers</p>
+                <li className='servicesPages__card-item'>
+                    <img className='servicesPages__card-img' src={development} alt="" />
+                    <p className='servicesPages__card-paragraph'>Dedicated Developers</p>
                 </li>
-                <li className='services__card-item'>
-                    <img className='services__card-img' src={tools} alt="" />
-                    <p className='services__card-paragraph'>sdk development</p>
+                <li className='servicesPages__card-item'>
+                    <img className='servicesPages__card-img' src={tools} alt="" />
+                    <p className='servicesPages__card-paragraph'>sdk development</p>
                 </li>
-                <li className='services__card-item'>
-                    <img className='services__card-img' src={img} alt="" />
-                    <p className='services__card-paragraph'>sdk 3d modeling </p>
+                <li className='servicesPages__card-item'>
+                    <img className='servicesPages__card-img' src={img} alt="" />
+                    <p className='servicesPages__card-paragraph'>sdk 3d modeling </p>
                 </li>
-                <li className='services__card-item'>
-                    <img className='services__card-img' src={app} alt="" />
-                    <p className='services__card-paragraph'>ar app development</p>
+                <li className='servicesPages__card-item'>
+                    <img className='servicesPages__card-img' src={app} alt="" />
+                    <p className='servicesPages__card-paragraph'>ar app development</p>
                 </li>
             </ul>
         </section>
