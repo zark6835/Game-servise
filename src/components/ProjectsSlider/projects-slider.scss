@@ -2,7 +2,6 @@
 
 .projects {
   padding-top: 243px;
-  margin-bottom: 110px;
 
   background-image: url(../../assets/img/content/slider/projectsSlider-bg.png);
   background-position: start;
@@ -34,11 +33,11 @@
   }
 }
 .slick-track{
-  height: 410px;
+  height: max-content;
 
 }
 
   /* the slides */
-  .slick-slide {
+  .slick-slider.projects__slider .slick-list .slick-track .slick-slide{
       margin: 0 2px;
   }

@@ -1,0 +1,101 @@
+@import "../../assets/global-style/vars";
+
+.faqs {
+  margin: 0 auto;
+  max-width: 1016px;
+  width: 100%;
+  margin-bottom: 230px;
+
+  &__questions-list {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 60px;
+    list-style: inside;
+    color: $mediumBlue;
+    font-size: 30px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 34px;
+      height: 236.76px;
+      top: 15px;
+      left: -55px;
+      background-image: url(../../assets/img/content/faqs/questions-left.svg);
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 34px;
+      height: 236.76px;
+      top: 15px;
+      right: -55px;
+      background-image: url(../../assets/img/content/faqs/questions-right.svg);
+    }
+
+    &_item {
+      &_link {
+        font-family: "Montserrat-SemiBold";
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+
+        color: $mediumBlue;
+      }
+    }
+  }
+
+  &__information-list {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-top: 70px;
+
+    &_item {
+      &::after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color: $mediumBlue;
+      }
+
+      &_lowercase {
+        display: flex;
+      }
+
+      &_vector {
+        &::before {
+          content: "";
+          display: block;
+          width: 50px;
+          height: 12px;
+          margin-top: 7px;
+          margin-right: 23px;
+          background-image: url(../../assets/img/content/faqs/questions-vactor.svg);
+          background-repeat: no-repeat;
+        }
+      }
+
+      &_subtitle {
+        font-family: "Montserrat-Bold";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+        text-transform: capitalize;
+
+        color: $darkGrey;
+      }
+
+      &_paragraph {
+        padding: 14px 0 16px;
+      }
+    }
+  }
+}

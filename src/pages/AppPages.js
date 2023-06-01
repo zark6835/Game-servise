@@ -6,6 +6,7 @@ import ServicesPages from "../components/ServicesPages/ServicesPages";
 import Partner from "../components/Partner/Partner";
 import Feedback from "../components/Feedback/Feedback"
 import ProjectsSlider from "../components/ProjectsSlider/ProjectsSlider";
+import Faqs from "../components/Faqs/Faqs";
 
 
 const AppPages = () => {
@@ -21,6 +22,7 @@ const AppPages = () => {
         <TextInformation/>
         <Feedback/>
         <ProjectsSlider/>
+        <Faqs/>
       </main>
     </>
   );

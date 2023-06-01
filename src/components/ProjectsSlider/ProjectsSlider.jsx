@@ -18,7 +18,7 @@ const ProjectsSlider = () => {
     <section className="projects">
       <h2 className="header2">Recent Projects</h2>
       <div className="projects__wrapper-carousel">
-        <Slider {...settings}>
+        <Slider className='projects__slider' {...settings}>
           {data.map((item) => (
             <div className="projects__card">
               <div className="projects__card-header">

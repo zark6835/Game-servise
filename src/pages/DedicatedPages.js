@@ -5,6 +5,8 @@ import Reviews from "../components/Reviews/Reviews";
 import ServicesPages from "../components/ServicesPages/ServicesPages";
 import Partner from "../components/Partner/Partner";
 import Feedback from "../components/Feedback/Feedback"
+import ProjectsSlider from "../components/ProjectsSlider/ProjectsSlider";
+import Faqs from "../components/Faqs/Faqs";
 
 const DedicatedPages = () => {
   return (
@@ -18,6 +20,8 @@ const DedicatedPages = () => {
         <Partner/>
         <TextInformation/>
         <Feedback/>
+        <ProjectsSlider/>
+        <Faqs/>
       </main>
     </>
   );
