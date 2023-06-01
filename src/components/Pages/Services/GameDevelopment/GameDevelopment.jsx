@@ -1,6 +1,6 @@
-import img1 from '../../../assets/img/content/services-pages/game-development-img.png'
+import img1 from '../../../../assets/img/content/services-pages/game-development-img.png'
 
-import '../pages-style.scss'
+import '../../pages-style.scss'
 
 const GameDevelopment = () => {
     return ( 

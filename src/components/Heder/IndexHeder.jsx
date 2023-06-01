@@ -49,9 +49,9 @@ const IndexHeder = () => {
             <p className={`body2 color-blue ${technologiesOpen ? 'open' : ''}`} onClick={openMenuTechnologies}>TECHNOLOGIES</p>
             </div>
             <ul className={`Heder__servises-list-item-index ${technologiesOpen ? 'open' : ''}`}>
-              <li><a className="body2 color-blue" href="#">ANDROID</a></li>
-              <li><a className="body2 color-blue" href="#">IOS</a></li>
-              <li><a className="body2 color-blue" href="#">UNITY</a></li>
+            <li><Link to="/android-technologies" className="body2 color-blue">ANDROID</Link></li>
+            <li><Link to="/ios-technologies" className="body2 color-blue">IOS</Link></li>
+            <li><Link to="/unity-technologies" className="body2 color-blue">UNITY</Link></li>
             </ul>
           </li>
           <li className="Heder__list-item">

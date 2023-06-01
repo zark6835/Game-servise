@@ -3,13 +3,16 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Index from "./pages/index";
 import Footer from "./components/Footer/Footer";
-import MobilePages from "./pages/MobilePages";
-import GamePages from "./pages/GamePages";
-import VrPages from "./pages/VrPages";
-import DedicatedPages from "./pages/DedicatedPages";
-import SdkPages from "./pages/SdkPages";
-import SdkModelingsPages from "./pages/SdkModelingsPages";
-import AppPages from "./pages/AppPages";
+import MobilePages from "./pages/Services/MobilePages";
+import GamePages from "./pages/Services/GamePages";
+import VrPages from "./pages/Services/VrPages";
+import DedicatedPages from "./pages/Services/DedicatedPages";
+import SdkPages from "./pages/Services/SdkPages";
+import SdkModelingsPages from "./pages/Services/SdkModelingsPages";
+import AppPages from "./pages/Services/AppPages";
+import AndroidPages from "./pages/Technologies/AndroidPages";
+import IosPages from "./pages/Technologies/IosPages";
+import UnityPages from "./pages/Technologies/UnityPages";
 
 function App() {
   return (
@@ -22,7 +25,10 @@ function App() {
           <Route path="/dedicated-devrlopment" element={<DedicatedPages />} />
           <Route path="/sdk-devrlopment" element={<SdkPages />} />
           <Route path="/sdk-modelings" element={<SdkModelingsPages />} />
-          <Route path="/app-devrlopment" element={<AppPages />} />
+          <Route path="" element={<AppPages />} />
+          <Route path="/android-technologies" element={<AndroidPages />} />
+          <Route path="/ios-technologies" element={<IosPages />} />
+          <Route path="/unity-technologies" element={<UnityPages />} />
         </Routes>
         <Footer />
     </div>

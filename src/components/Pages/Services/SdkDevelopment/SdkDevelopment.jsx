@@ -1,5 +1,5 @@
-import img1 from '../../../assets/img/content/services-pages/sdk-development-img.png'
-import '../pages-style.scss'
+import img1 from '../../../../assets/img/content/services-pages/sdk-development-img.png'
+import '../../pages-style.scss'
 
 const SdkDevelopment = () => {
     return ( 

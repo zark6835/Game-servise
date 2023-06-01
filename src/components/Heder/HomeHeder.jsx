@@ -1,16 +1,7 @@
 import { useState } from "react";
 import logo from "../../assets/img/home-logo.png";
 import "./header-styles.scss";
-import { Link, Route, Routes } from "react-router-dom";
-
-import MobilePages from "../../pages/MobilePages";
-import GamePages from "../../pages/GamePages";
-import VrPages from "../../pages/VrPages";
-import DedicatedPages from "../../pages/DedicatedPages";
-import SdkPages from "../../pages/SdkPages";
-import SdkModelingsPages from "../../pages/SdkModelingsPages";
-import AppPages from "../../pages/AppPages";
-import Index from "../../pages/index";
+import { Link } from "react-router-dom";
 
 const HomeHeder = () => {
   const [servisesOpen, setServisesOpen] = useState(false);
@@ -90,19 +81,19 @@ const HomeHeder = () => {
                 </div>
                 <ul className={`Heder__servises-list-item-home ${technologiesOpen ? "open" : ""}`}>
                   <li>
-                    <a className="body2 color-white" href="#">
+                    <Link to="/android-technologies" className="body2 color-white">
                       ANDROID
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="body2 color-white" href="#">
+                    <Link to="/ios-technologies" className="body2 color-white">
                       IOS
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="body2 color-white" href="#">
+                    <Link to="/unity-technologies" className="body2 color-white">
                       UNITY
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>

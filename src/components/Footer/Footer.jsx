@@ -64,13 +64,13 @@ const Footer = () => {
             </div>
             <ul className="footer__list-item">
               <li>
-                <a className="footer-paragraph" href="#">ANDROID</a>
+                <a className="footer-paragraph" href="/android-technologies">ANDROID</a>
               </li>
               <li>
-                <a className="footer-paragraph" href="#">IOS</a>
+                <a className="footer-paragraph" href="/ios-technologies">IOS</a>
               </li>
               <li>
-                <a className="footer-paragraph" href="#">UNITY</a>
+                <a className="footer-paragraph" href="/unity-technologies">UNITY</a>
               </li>
             </ul>
           </li>
