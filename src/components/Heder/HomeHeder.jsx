@@ -98,9 +98,9 @@ const HomeHeder = () => {
                 </ul>
               </li>
               <li className="Heder__list-item">
-                <a className="body2 color-white" href="#">
+                <Link to="/assets-products" className="body2 color-white">
                   PRODUCTS
-                </a>
+                </Link>
               </li>
               <li className="Heder__list-item">
                 <a className="body2 color-white" href="#">

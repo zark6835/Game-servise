@@ -13,6 +13,7 @@ import AppPages from "./pages/Services/AppPages";
 import AndroidPages from "./pages/Technologies/AndroidPages";
 import IosPages from "./pages/Technologies/IosPages";
 import UnityPages from "./pages/Technologies/UnityPages";
+import ProductsPages from "./pages/Products/ProductsPages";
 
 function App() {
   return (
@@ -25,10 +26,11 @@ function App() {
           <Route path="/dedicated-devrlopment" element={<DedicatedPages />} />
           <Route path="/sdk-devrlopment" element={<SdkPages />} />
           <Route path="/sdk-modelings" element={<SdkModelingsPages />} />
-          <Route path="" element={<AppPages />} />
+          <Route path="/app-devrlopment" element={<AppPages />} />
           <Route path="/android-technologies" element={<AndroidPages />} />
           <Route path="/ios-technologies" element={<IosPages />} />
           <Route path="/unity-technologies" element={<UnityPages />} />
+          <Route path="/assets-products" element={<ProductsPages />} />
         </Routes>
         <Footer />
     </div>
