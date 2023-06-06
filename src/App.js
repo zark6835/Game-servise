@@ -14,6 +14,7 @@ import AndroidPages from "./pages/Technologies/AndroidPages";
 import IosPages from "./pages/Technologies/IosPages";
 import UnityPages from "./pages/Technologies/UnityPages";
 import ProductsPages from "./pages/Products/ProductsPages";
+import PortfolioPages from "./pages/Portfolio/PortfolioPages";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
           <Route path="/ios-technologies" element={<IosPages />} />
           <Route path="/unity-technologies" element={<UnityPages />} />
           <Route path="/assets-products" element={<ProductsPages />} />
+          <Route path="/portfolio" element={<PortfolioPages/>} />
         </Routes>
         <Footer />
     </div>

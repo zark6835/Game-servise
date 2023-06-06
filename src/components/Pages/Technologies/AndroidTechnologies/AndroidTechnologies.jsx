@@ -1,4 +1,4 @@
-import img1 from '../../../../assets/img/content/technologles/technologles-android.png'
+import img1 from '../../../../assets/img/content/technologles-pages/technologles-android.png'
 
 import '../../pages-style.scss'
 

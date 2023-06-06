@@ -58,7 +58,7 @@ const IndexHeder = () => {
             <Link to="/assets-products" className="body2 color-blue">PRODUCTS</Link>
           </li>
           <li className="Heder__list-item">
-            <a className="body2 color-blue" href="#">PORTFOLIO</a>
+            <Link to="/portfolio" className="body2 color-blue">PORTFOLIO</Link>
           </li>
           <li className="Heder__list-item">
             <a className="body2 color-blue" href="#">BLOG</a>

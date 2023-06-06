@@ -80,7 +80,7 @@ const Footer = () => {
                 <a className="footer-title" href="/assets-products">PRODUCTS</a>
               </li>
               <li className="">
-                <a className="footer-title" href="#">PORTFOLIO</a>
+                <a className="footer-title" href="/portfolio">PORTFOLIO</a>
               </li>
               <li className="">
                 <a className="footer-title" href="#">BLOG</a>

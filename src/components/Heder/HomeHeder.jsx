@@ -103,9 +103,9 @@ const HomeHeder = () => {
                 </Link>
               </li>
               <li className="Heder__list-item">
-                <a className="body2 color-white" href="#">
+                <Link to="/portfolio" className="body2 color-white" href="#">
                   PORTFOLIO
-                </a>
+                </Link>
               </li>
               <li className="Heder__list-item">
                 <a className="body2 color-white" href="#">
