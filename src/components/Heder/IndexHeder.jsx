@@ -69,7 +69,7 @@ const IndexHeder = () => {
           </div>
           <ul className={`Heder__servises-list-item-index ${aboutUsOpen ? 'open' : ''}`}>
               <li><a className="body2 color-blue" href="#">CONTACTS</a></li>
-              <li><a className="body2 color-blue" href="#">TEAM</a></li>
+              <li><Link to="/about-us" className="body2 color-blue">TEAM</Link></li>
               <li><a className="body2 color-blue" href="#">JOIN THE TEAM</a></li>
             </ul>
           </li>
