@@ -1,6 +1,6 @@
-import '../pages-style.scss'
+import '../../pages-style.scss'
 
-const AboutUs = () => {
+const AboutUsTeam = () => {
     return ( 
         <section className='container'>
             <div className='pages__wrapper'>
@@ -10,4 +10,4 @@ const AboutUs = () => {
      );
 }
  
-export default AboutUs;
+export default AboutUsTeam;

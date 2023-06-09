@@ -15,7 +15,8 @@ import IosPages from "./pages/Technologies/IosPages";
 import UnityPages from "./pages/Technologies/UnityPages";
 import ProductsPages from "./pages/Products/ProductsPages";
 import PortfolioPages from "./pages/Portfolio/PortfolioPages";
-import AboutUsPages from "./pages/AboutUs/AboutUsPages";
+import AboutUsTeamPages from "./pages/AboutUs/AboutUsTeamPages";
+import AboutUsJoinTeamPages from "./pages/AboutUs/AboutUsJoinTeamPages";
 
 function App() {
   return (
@@ -34,7 +35,8 @@ function App() {
           <Route path="/unity-technologies" element={<UnityPages />} />
           <Route path="/assets-products" element={<ProductsPages />} />
           <Route path="/portfolio" element={<PortfolioPages/>} />
-          <Route path="/about-us" element={<AboutUsPages/>} />
+          <Route path="/aboutUs-team" element={<AboutUsTeamPages/>} />
+          <Route path="/aboutUs-join-team" element={<AboutUsJoinTeamPages/>} />
         </Routes>
         <Footer />
     </div>

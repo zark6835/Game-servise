@@ -96,7 +96,7 @@ const Footer = () => {
                 <a className="footer-paragraph" href="#">CONTACTS</a>
               </li>
               <li>
-                <a className="footer-paragraph" href="/about-us">TEAM</a>
+                <a className="footer-paragraph" href="/aboutUs-team">TEAM</a>
               </li>
               <li>
                 <a className="footer-paragraph" href="#">JOIN THE TEAM</a>

@@ -4,6 +4,7 @@
   display: flex;
   justify-content: space-between;
   height: 440px;
+
   &__wrapper {
     display: flex;
     flex-direction: column;
@@ -11,15 +12,28 @@
     width: 550px;
     margin-top: 45px;
 
-    & span{
+    & span {
       background-image: url(../../assets/img/content/services-pages/Vector.png);
       padding: 10px 12px 12px;
       background-repeat: no-repeat;
       background-position: center;
     }
   }
-  &__img{
+
+  &__img {
     margin-top: 40px;
+  }
+
+  &__content{
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+    margin-top: 60px;
+    margin-bottom: 125px;
+
+    & span{
+      @extend .body2
+    }
   }
 }
 
