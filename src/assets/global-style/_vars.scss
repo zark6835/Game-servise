@@ -78,37 +78,28 @@ $white: #ffffff;
 
 .button {
   &-white {
+    cursor: pointer;
     width: 160px;
     text-align: center;
     padding: 5px 25px;
     border: 2px solid $white;
     border-radius: 6px;
 
-    font-family: "Montserrat-Bold";
-    text-decoration: none;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 36px;
-    text-transform: uppercase;
+    @extend .body2;
   
     color: $white;
   }
 
   &-green {
+    cursor: pointer;
     text-align: center;
     padding: 5px 25px;
     border: 2px solid $darkGreen;
     border-radius: 6px;
     background-color: $darkGreen;
     
-    font-family: "Montserrat-Bold";
-    text-decoration: none;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 36px;
-    text-transform: uppercase;
+    @extend .body2;
+
     color: $white;
   }
 }

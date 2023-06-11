@@ -137,9 +137,9 @@ const HomeHeder = () => {
                     </Link>
                   </li>
                   <li>
-                    <a className="body2 color-white" href="#">
+                    <Link to="/aboutUs-join-team" className="body2 color-white">
                       JOIN THE TEAM
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>

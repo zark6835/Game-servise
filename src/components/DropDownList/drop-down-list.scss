@@ -1,0 +1,119 @@
+@import "../../assets/global-style/vars";
+
+.dropDownList {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+
+  margin: 125px auto 240px;
+  max-width: 1130px;
+  width: 100%;
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    &-item {
+       position: relative;
+    }
+  }
+
+  &__card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 30px 70px 30px 40px;
+    background: $white;
+    box-shadow: 0px 3px 16px rgba(29, 51, 107, 0.15);
+    /*бордер змінювати коли він активний*/
+    //border-radius: 12px;
+    border-start-start-radius: 12px;
+    border-start-end-radius: 12px;
+
+    &-wrapper_content {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    &-name.header3 {
+      color: $barkBlue;
+    }
+
+    &-button {
+      max-width: 160px;
+      width: 100%;
+    }
+  }
+
+  &__attachments {
+    &-list {
+      position: absolute;
+      visibility: hidden;
+      opacity: 0;
+      transform: translateY(-10px);
+      transition: all 0.3s ease;
+
+      &.open {
+        position: relative;
+        visibility: visible;
+        transform: translateY(0);
+        opacity: 1;
+        z-index: 3;
+
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        padding: 24px 10px 24px 40px;
+  
+        background: $white;
+        box-shadow: 0px 13px 16px rgba(29, 51, 107, 0.15);
+        border-end-end-radius: 12px;
+        border-end-start-radius: 12px;
+        border-top: 1px solid rgba(25, 68, 132, 0.2);
+        
+      }
+
+      &_item {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+      }
+    }
+
+    &-category {
+      font-family: "Harabara";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 38px;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+
+      color: $barkBlue;
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    &-item {
+      position: relative;
+      padding-left: 20px; /* Задаємо відступ ліворуч для тексту пункту */
+
+      &:before {
+        content: "";
+        position: absolute;
+        left: 5px;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background-color: $mediumBlue2; /* Колір точки */
+      }
+    }
+  }
+}

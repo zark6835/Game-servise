@@ -1,9 +1,6 @@
 import IndexHeder from "../../components/Heder/IndexHeder";
-import Partner from "../../components/Partner/Partner";
-import Feedback from "../../components/Feedback/Feedback"
-import TeamCard from "../../components/TeamCard/TeamCard";
-import ProjectsSlider from "../../components/ProjectsSlider/ProjectsSlider";
 import AboutUsJoinTeam from "../../components/Pages/AboutUs/AboutUsJoinTeam/AboutUsJoinTeam";
+import DropDownList from "../../components/DropDownList/DropDownList";
 
 const AboutUsJoinTeamPages = () => {
   return (
@@ -11,10 +8,7 @@ const AboutUsJoinTeamPages = () => {
       <IndexHeder />
       <main>
         <AboutUsJoinTeam/>
-        <TeamCard/>
-        <Partner/>
-        <Feedback/>
-        <ProjectsSlider/>
+        <DropDownList/>
       </main>
     </>
   );
