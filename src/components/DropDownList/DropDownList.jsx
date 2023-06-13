@@ -3,6 +3,7 @@ import { addDropListOpen } from '../../helpers/open/addDropListOpen'
 import vector from "../../assets/img/content/aboutUs-pages/drop-down-list-Vector.svg";
 
 import "./drop-down-list.scss";
+import { Link } from 'react-router-dom';
 
 const DropDownList = () => {
   return (
@@ -15,7 +16,7 @@ const DropDownList = () => {
               <img className="dropDownList__card-img" src={vector} alt="" />
               <h3 className="header3 dropDownList__card-name">Unity Developer 1</h3>
             </div>
-            <button className="dropDownList__card-button button-green">Apply</button>
+            <Link to='form' className="dropDownList__card-button button-green">Apply</Link>
           </div>
           
             <ul className="dropDownList__attachments-list openClass">
@@ -63,7 +64,7 @@ const DropDownList = () => {
               <img className="dropDownList__card-img" src={vector} alt="" />
               <h3 className="header3 dropDownList__card-name">Unity Developer 2</h3>
             </div>
-            <button className="dropDownList__card-button button-green">Apply</button>
+            <Link to='form' className="dropDownList__card-button button-green">Apply</Link>
           </div>
           
             <ul className="dropDownList__attachments-list openClass">

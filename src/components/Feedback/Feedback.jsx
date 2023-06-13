@@ -85,7 +85,7 @@ const Contacst = () => {
               placeholder="Message"
             />
           </div>
-          <button className="contacst__form-btn">Send request</button>
+          <button className="button-form">Send request</button>
         </form>
       </div>
     </section>

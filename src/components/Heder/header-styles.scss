@@ -142,13 +142,11 @@
     box-shadow: 0px 4px 12px rgba(24, 9, 96, 0.1);
   }
   &-Heder__btn {
-    padding: 5px 25px;
-    border: 2px solid $darkGreen;
-    border-radius: 6px;
-    transition: 0.3s;
+    @extend .button__green-white;
     &.body2 {
       color: $darkGreen;
     }
+    
     &:hover {
       background-color: $darkGreen;
       color: black;

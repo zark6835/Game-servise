@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import Index from "./pages/index";
+import IndexPages from "./pages/IndexPages";
 import Footer from "./components/Footer/Footer";
 import MobilePages from "./pages/Services/MobilePages";
 import GamePages from "./pages/Services/GamePages";
@@ -22,21 +22,21 @@ function App() {
   return (
     <div className="Add">
         <Routes>
-          <Route path="/" element={<Index />} />
-          <Route path="/mobile-devrlopment" element={<MobilePages />} />
-          <Route path="/game-devrlopment" element={<GamePages />} />
-          <Route path="/vr-devrlopment" element={<VrPages />} />
-          <Route path="/dedicated-devrlopment" element={<DedicatedPages />} />
-          <Route path="/sdk-devrlopment" element={<SdkPages />} />
-          <Route path="/sdk-modelings" element={<SdkModelingsPages />} />
-          <Route path="/app-devrlopment" element={<AppPages />} />
-          <Route path="/android-technologies" element={<AndroidPages />} />
-          <Route path="/ios-technologies" element={<IosPages />} />
-          <Route path="/unity-technologies" element={<UnityPages />} />
-          <Route path="/assets-products" element={<ProductsPages />} />
-          <Route path="/portfolio" element={<PortfolioPages/>} />
-          <Route path="/aboutUs-team" element={<AboutUsTeamPages/>} />
-          <Route path="/aboutUs-join-team" element={<AboutUsJoinTeamPages/>} />
+          <Route path="/" element={<IndexPages />} />
+          <Route path="mobile-devrlopment" element={<MobilePages />} />
+          <Route path="game-devrlopment" element={<GamePages />} />
+          <Route path="vr-devrlopment" element={<VrPages />} />
+          <Route path="dedicated-devrlopment" element={<DedicatedPages />} />
+          <Route path="sdk-devrlopment" element={<SdkPages />} />
+          <Route path="sdk-modelings" element={<SdkModelingsPages />} />
+          <Route path="app-devrlopment" element={<AppPages />} />
+          <Route path="android-technologies" element={<AndroidPages />} />
+          <Route path="ios-technologies" element={<IosPages />} />
+          <Route path="unity-technologies" element={<UnityPages />} />
+          <Route path="assets-products" element={<ProductsPages />} />
+          <Route path="portfolio" element={<PortfolioPages/>} />
+          <Route path="aboutUs-team" element={<AboutUsTeamPages/>} />
+          <Route path="aboutUs-join-team/*" element={<AboutUsJoinTeamPages/>} />
         </Routes>
         <Footer />
     </div>
