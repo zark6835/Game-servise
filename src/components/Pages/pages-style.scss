@@ -3,7 +3,7 @@
 .pages {
   display: flex;
   justify-content: space-between;
-  height: 440px;
+  min-height: 440px;
 
   &__wrapper {
     display: flex;

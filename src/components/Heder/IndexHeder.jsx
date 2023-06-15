@@ -54,7 +54,7 @@ const IndexHeder = () => {
             <p className={`body2 color-blue`} onClick={addHeaderOpenClass}>ABOUT US</p>
           </div>
           <ul className={`Heder__servises-list-item-index openClass`}>
-              <li><a className="body2 color-blue" href="#">CONTACTS</a></li>
+              <li><Link to="/aboutUs-contacts" className="body2 color-blue">CONTACTS</Link></li>
               <li><Link to="/aboutUs-team" className="body2 color-blue">TEAM</Link></li>
               <li><Link to="/aboutUs-join-team" className="body2 color-blue">JOIN THE TEAM</Link></li>
             </ul>

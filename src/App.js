@@ -17,6 +17,7 @@ import ProductsPages from "./pages/Products/ProductsPages";
 import PortfolioPages from "./pages/Portfolio/PortfolioPages";
 import AboutUsTeamPages from "./pages/AboutUs/AboutUsTeamPages";
 import AboutUsJoinTeamPages from "./pages/AboutUs/AboutUsJoinTeamPages";
+import AboutUsContactsPages from "./pages/AboutUs/AboutUsContactsPages";
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
           <Route path="portfolio" element={<PortfolioPages/>} />
           <Route path="aboutUs-team" element={<AboutUsTeamPages/>} />
           <Route path="aboutUs-join-team/*" element={<AboutUsJoinTeamPages/>} />
+          <Route path="aboutUs-contacts" element={<AboutUsContactsPages/>} />
         </Routes>
         <Footer />
     </div>

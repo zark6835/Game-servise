@@ -136,3 +136,20 @@ $white: #ffffff;
     color: #ffffff;
   }
 }
+
+.form__input{
+  &-line {
+    @extend .body;
+    padding: 7px 16px;
+    background: $white;
+    border: 1px solid #d7d7d7;
+    border-radius: 4px;
+    outline: none;
+  }
+
+  &-message {
+    @extend .form__input-line;
+
+    height: 80px;
+  }
+}

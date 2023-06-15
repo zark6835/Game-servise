@@ -93,7 +93,7 @@ const Footer = () => {
             </div>
             <ul className="footer__list-item">
               <li>
-                <a className="footer-paragraph" href="#">CONTACTS</a>
+                <a className="footer-paragraph" href="/aboutUs-contacts">CONTACTS</a>
               </li>
               <li>
                 <a className="footer-paragraph" href="/aboutUs-team">TEAM</a>

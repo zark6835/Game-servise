@@ -127,9 +127,9 @@ const HomeHeder = () => {
                   }`}
                 >
                   <li>
-                    <a className="body2 color-white" href="#">
+                    <Link to="/aboutUs-contacts" className="body2 color-white">
                       CONTACTS
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <Link to="/aboutUs-team" className="body2 color-white">

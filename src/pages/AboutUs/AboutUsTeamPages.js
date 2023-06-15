@@ -5,7 +5,7 @@ import AboutUsTeam from "../../components/Pages/AboutUs/AboutUsTeam/AboutUsTeam"
 import TeamCard from "../../components/TeamCard/TeamCard";
 import ProjectsSlider from "../../components/ProjectsSlider/ProjectsSlider";
 
-const AboutUsPages = () => {
+const AboutUsTeamPages = () => {
   return (
     <>
       <IndexHeder />
@@ -20,4 +20,4 @@ const AboutUsPages = () => {
   );
 };
 
-export default AboutUsPages;
+export default AboutUsTeamPages;
