@@ -47,9 +47,6 @@ const IndexHeder = () => {
             <Link to="/portfolio" className="body2 color-blue">PORTFOLIO</Link>
           </li>
           <li className="Heder__list-item">
-            <a className="body2 color-blue" href="#">BLOG</a>
-          </li>
-          <li className="Heder__list-item">
           <div className="Heder__servises-list">
             <p className={`body2 color-blue`} onClick={addHeaderOpenClass}>ABOUT US</p>
           </div>
@@ -60,7 +57,7 @@ const IndexHeder = () => {
             </ul>
           </li>
           </ul>
-          <a href="#" className="Index-Heder__btn body2">CONTACT US</a>
+          <Link to="/aboutUs-contacts" className="Index-Heder__btn body2">CONTACT US</Link>
         </div>
       </header> 
      );

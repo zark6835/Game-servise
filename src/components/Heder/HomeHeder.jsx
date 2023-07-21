@@ -108,11 +108,6 @@ const HomeHeder = () => {
                 </Link>
               </li>
               <li className="Heder__list-item">
-                <a className="body2 color-white" href="#">
-                  BLOG
-                </a>
-              </li>
-              <li className="Heder__list-item">
                 <div className="Heder__servises-list home">
                   <p
                     className={`body2 color-white ${aboutUsOpen ? "open" : ""}`}
@@ -144,9 +139,9 @@ const HomeHeder = () => {
                 </ul>
               </li>
             </ul>
-            <a href="#" className="Home-Heder__btn body2">
+            <Link to="/aboutUs-contacts" className="Home-Heder__btn body2">
               CONTACT US
-            </a>
+            </Link>
           </div>
         </div>
       </header>

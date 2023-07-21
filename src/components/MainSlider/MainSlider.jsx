@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 import "./mainSlider.scss";
 
 import data from "../../data/mainSlider";
+import { Link } from "react-router-dom";
 
 const MainSlider = () => {
   const settings = {
@@ -27,8 +28,8 @@ const MainSlider = () => {
             <h2 className="header1">{item.title}</h2>
             <p className="card__paragraph body">{item.paragraph}</p>
             <div className="card__btn-wrapper">
-              <a href="#" className="button-white">MORE</a>
-              <a href="#" className="button-green">Contact us</a>
+              <Link to="/portfolio" className="button-white">MORE</Link>
+              <Link to="/aboutUs-contacts" className="button-green">Contact us</Link>
             </div>
           </div>
         </div>

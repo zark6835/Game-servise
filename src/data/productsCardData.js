@@ -12,47 +12,65 @@ const productsCardData = [
     {
         img: img1,
         title: 'Ultimate mobile pro',
-        paragraph: 'This plugin provides easy and flexible functionality of iOS native functions which are not natively available from Unity.', 
+        paragraph: 'This plugin provides easy and flexible functionality of iOS native functions which are not natively available from Unity.',
+        unityLink: '#',
+        githubLink: '#'
     },
     {
         img: img2,
         title: 'android native pro',
-        paragraph: 'This plugin provides easy and flexible functionality of iOS native functions which are not natively available from Unity.', 
+        paragraph: 'This plugin provides easy and flexible functionality of iOS native functions which are not natively available from Unity.',
+        unityLink: '#',
+        githubLink: '#' 
     },
     {
         img: img3,
         title: 'ios native pro',
-        paragraph: 'This plugin provides easy and flexible functionality of iOS native functions which are not natively available from Unity.', 
+        paragraph: 'This plugin provides easy and flexible functionality of iOS native functions which are not natively available from Unity.',
+        unityLink: '#',
+        githubLink: '#' 
     },
     {
         img: img4,
         title: 'after effects importer',
-        paragraph: 'This plugin provides easy and flexible functionality of iOS native functions which are not natively available from Unity.', 
+        paragraph: 'This plugin provides easy and flexible functionality of iOS native functions which are not natively available from Unity.',
+        unityLink: '#',
+        githubLink: '#' 
     },
     {
         img: img5,
         title: 'google doc localization',
-        paragraph: 'This plugin provides easy and flexible functionality of iOS native functions which are not natively available from Unity.', 
+        paragraph: 'This plugin provides easy and flexible functionality of iOS native functions which are not natively available from Unity.',
+        unityLink: '#',
+        githubLink: '#' 
     },
     {
         img: img6,
         title: 'google tag manager',
-        paragraph: 'This plugin provides easy and flexible functionality of iOS native functions which are not natively available from Unity.', 
+        paragraph: 'This plugin provides easy and flexible functionality of iOS native functions which are not natively available from Unity.',
+        unityLink: '#',
+        githubLink: '#' 
     },
     {
         img: img7,
         title: 'texture packer pro',
-        paragraph: 'This plugin provides easy and flexible functionality of iOS native functions which are not natively available from Unity.', 
+        paragraph: 'This plugin provides easy and flexible functionality of iOS native functions which are not natively available from Unity.',
+        unityLink: '#',
+        githubLink: '#' 
     },
     {
         img: img8,
         title: 'amazon native',
-        paragraph: 'This plugin provides easy and flexible functionality of iOS native functions which are not natively available from Unity.', 
+        paragraph: 'This plugin provides easy and flexible functionality of iOS native functions which are not natively available from Unity.',
+        unityLink: '#',
+        githubLink: '#' 
     },
     {
         img: img9,
         title: 'google analytics sdk',
-        paragraph: 'This plugin provides easy and flexible functionality of iOS native functions which are not natively available from Unity.', 
+        paragraph: 'This plugin provides easy and flexible functionality of iOS native functions which are not natively available from Unity.',
+        unityLink: '#',
+        githubLink: '#' 
     },
 ]
 
