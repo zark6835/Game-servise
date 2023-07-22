@@ -76,14 +76,11 @@ const Footer = () => {
           </li>
           <li>
             <ul className="footer__list-title">
-              <li className="">
+              <li>
                 <a className="footer-title" href="/assets-products">PRODUCTS</a>
               </li>
-              <li className="">
+              <li>
                 <a className="footer-title" href="/portfolio">PORTFOLIO</a>
-              </li>
-              <li className="">
-                <a className="footer-title" href="#">BLOG</a>
               </li>
             </ul>
           </li>

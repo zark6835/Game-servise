@@ -6,6 +6,7 @@ import "./drop-down-list.scss";
 import { Link } from 'react-router-dom';
 
 const DropDownList = () => {
+
   return (
     <section className="dropDownList">
       <h2 className="header2">Current openings</h2>
@@ -13,8 +14,7 @@ const DropDownList = () => {
         <li className="dropDownList__list-item">
           <div className="dropDownList__card">
             <div className="dropDownList__card-wrapper_content" onClick={addDropListOpen}>
-              <img className="dropDownList__card-img" src={vector} alt="" />
-              <h3 className="header3 dropDownList__card-name">Unity Developer 1</h3>
+              <h3 className="dropDownList__card-name">Unity Developer 1</h3>
             </div>
             <Link to='form' className="dropDownList__card-button button-green">Apply</Link>
           </div>
@@ -61,8 +61,7 @@ const DropDownList = () => {
         <li className="dropDownList__list-item">
           <div className="dropDownList__card">
             <div className="dropDownList__card-wrapper_content" onClick={addDropListOpen}>
-              <img className="dropDownList__card-img" src={vector} alt="" />
-              <h3 className="header3 dropDownList__card-name">Unity Developer 2</h3>
+              <h3 className="dropDownList__card-name">Unity Developer 2</h3>
             </div>
             <Link to='form' className="dropDownList__card-button button-green">Apply</Link>
           </div>

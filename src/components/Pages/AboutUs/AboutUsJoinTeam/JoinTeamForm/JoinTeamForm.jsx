@@ -1,11 +1,39 @@
-import { useState } from 'react';
-
-import cross from '../../../../../assets/img/content/cross.png'
+import { useEffect, useRef, useState } from 'react';
 
 import './join-team-form.scss'
 import { Link } from 'react-router-dom';
 
 const JoinTeamForm = () => {
+  const elementRef = useRef(null);
+
+  useEffect(() => {
+    // Отримуємо посилання на DOM елемент за допомогою useRef
+    const element = elementRef.current;
+
+    // додаємо таймаут до додавання класу
+    const addClassTimeout = setTimeout(() => {
+      element.classList.add('open');
+    }, 10);
+
+    // Прибираємо таймаут при видаленні компонента, щоб уникнути виконання зайвих дій
+    return () => {
+      clearTimeout(addClassTimeout);
+    };
+  }, []);
+
+  //функція закриття форми
+  const cross = () => {
+    // Отримуємо посилання на DOM елемент за допомогою useRef
+    const element = elementRef.current;
+    // видвляємо клас open
+    element.classList.remove('open');
+    //робимо setTimeout щоб відпрацювала анімація після чого натискається кнопка з силкою 
+    setTimeout(() => {
+      document.getElementById('link-form').click()
+    }, 500)
+  }
+
+
     const [fileName, setFileName] = useState('');
 
     //по натисканю на кнопку додавання файлу викликає випадок click у <input type="file"/>
@@ -22,9 +50,10 @@ const JoinTeamForm = () => {
     };
 
     return ( 
-        <section className='team-form'>
+        <section className='team-form' ref={elementRef}>
             <div className='team-form__wrapper'>
-                <Link to='/aboutUs-join-team' className='form__cross' src={cross} alt="" />
+                <button className='form__cross' src={cross} alt="" onClick={cross}/>
+                <Link to='/aboutUs-join-team' id='link-form'/>
                 <div className='form__content'>
                     <h3 className='header3'>join the team</h3>
                     <p className='body'>Unity Developer</p>
