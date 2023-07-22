@@ -7,21 +7,22 @@ import github from '../../assets/img/content/products/products-card-link-github.
 
 const ProductsCard = () => {
 
+  //Функція яка спрацьовує при наведені на картку
   const handleMouseOver = (event) => {
     let target = event.target;
 
-    // Проверяем, является ли текущий элемент li
+    // Перевіряємо чи теперешній елемент дорівнює li
     while (target && target.tagName !== "LI") {
-      // Если нет, переходим к родительскому элементу
+      // Якщо ні то переходемо до батьківського елементу
       target = target.parentElement;
     }
   
-    // Проверяем, что нашли элемент li
+    // Перевіряємо що знайшли элемент li
     if (target && target.tagName === "LI") {
-      console.log(target);
+      //Видаляємо класс closed__link та додаємо open__link 
       target.querySelector('.products__list-item_link').classList.remove('closed__link')
         target.querySelector('.products__list-item_link').classList.add("open__link")
-
+      //При відведені миші з картки заберається класс open__link та додається closed__link
         target.addEventListener('mouseout', () =>{
           target.querySelector('.products__list-item_link').classList.remove('open__link')
           target.querySelector('.products__list-item_link').classList.add("closed__link")
@@ -34,7 +35,8 @@ const ProductsCard = () => {
       <div className="products__bg">
         <ul className="products__list">
           {productsCardData.map((item) => (
-            <li onMouseOver={handleMouseOver} className="products__list-item">
+             // Елементу li присвоїна подія onMouseOver
+            <li className="products__list-item" onMouseOver={handleMouseOver}>
               <div className="products__list-item_wrapper">
                 <img className="products__list-item_img" src={item.img} alt="" />
                 <div className="products__list-item_link closed__link">
