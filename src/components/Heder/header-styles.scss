@@ -1,5 +1,14 @@
 @import "../../assets/global-style/vars";
 
+@mixin arrow-icon {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 16px;
+  margin-left: 3px;
+  transition: 0.4s;
+}
+
 .Heder {
   &__logo {
     padding-bottom: 14px;
@@ -20,22 +29,34 @@
     display: flex;
     align-items: center;
     &::after {
-      content: "";
-      display: block;
-      width: 10px;
-      height: 6px;
-      margin-left: 3px;
-      transition: 0.3s;
+      @include arrow-icon;
       background-image: url(../../assets/img/content/header-vector-blue.png);
     }
+    &:hover {
+      &::after {
+        @include arrow-icon;
+        background-image: url(../../assets/img/content/header-vector-blue-up.png);
+      }
+    }
+
+    &.open::after {
+      @include arrow-icon;
+      background-image: url(../../assets/img/content/header-vector-blue-up.png);
+    }
+
     &.home::after {
-      content: "";
-      display: block;
-      width: 10px;
-      height: 6px;
-      margin-left: 3px;
-      transition: 0.3s;
-      background-image: url(../../assets/img/content/header-vector.svg);
+      @include arrow-icon;
+      background-image: url(../../assets/img/content/header-vector.png);
+    }
+    &.home:hover {
+      &::after {
+        @include arrow-icon;
+        background-image: url(../../assets/img/content/header-vector-blue-up.png);
+      }
+    }
+    &.home.open::after {
+      @include arrow-icon;
+      background-image: url(../../assets/img/content/header-vector-blue-up.png);
     }
   }
   &__servises-list-item {

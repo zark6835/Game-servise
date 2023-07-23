@@ -1,25 +1,9 @@
-import { useState } from "react";
 import logo from "../../assets/img/home-logo.png";
 import "./header-styles.scss";
+import { addHeaderOpenClass } from '../../helpers/open/addOpenClass'
 import { Link } from "react-router-dom";
 
 const HomeHeder = () => {
-  const [servisesOpen, setServisesOpen] = useState(false);
-  const [technologiesOpen, setTechnologiesOpen] = useState(false);
-  const [aboutUsOpen, setAboutUsOpen] = useState(false);
-
-  const openMenuServises = () => {
-    setServisesOpen(!servisesOpen);
-  };
-
-  const openMenuTechnologies = () => {
-    setTechnologiesOpen(!technologiesOpen);
-  };
-
-  const openMenuAboutUs = () => {
-    setAboutUsOpen(!aboutUsOpen);
-  };
-
   return (
     <>
       <header className="Home">
@@ -31,11 +15,11 @@ const HomeHeder = () => {
             <ul className="Heder__list">
               <li className="Heder__list-item">
                 <div className="Heder__servises-list home">
-                  <p className={`body2 color-white ${servisesOpen ? "open" : ""}`} onClick={openMenuServises}>
+                  <p className='body2 color-white' onClick={addHeaderOpenClass}>
                     SERVICES
                   </p>
                 </div>
-                <ul className={`Heder__servises-list-item-home ${servisesOpen ? "open" : ""}`}>
+                <ul className='Heder__servises-list-item-home openClass'>
                   <li>
                     <Link to="/mobile-devrlopment" className="body2 color-white">
                       MOBILE APPLICATION DEVELOPMENT
@@ -75,11 +59,11 @@ const HomeHeder = () => {
               </li>
               <li className="Heder__list-item">
                 <div className="Heder__servises-list home">
-                  <p className={`body2 color-white ${technologiesOpen ? "open" : ""}`} onClick={openMenuTechnologies}>
+                  <p className='body2 color-white' onClick={addHeaderOpenClass}>
                     TECHNOLOGIES
                   </p>
                 </div>
-                <ul className={`Heder__servises-list-item-home ${technologiesOpen ? "open" : ""}`}>
+                <ul className='Heder__servises-list-item-home openClass'>
                   <li>
                     <Link to="/android-technologies" className="body2 color-white">
                       ANDROID
@@ -110,16 +94,14 @@ const HomeHeder = () => {
               <li className="Heder__list-item">
                 <div className="Heder__servises-list home">
                   <p
-                    className={`body2 color-white ${aboutUsOpen ? "open" : ""}`}
-                    onClick={openMenuAboutUs}
+                    className='body2 color-white'
+                    onClick={addHeaderOpenClass}
                   >
                     ABOUT US
                   </p>
                 </div>
                 <ul
-                  className={`Heder__servises-list-item-home ${
-                    aboutUsOpen ? "open" : ""
-                  }`}
+                  className='Heder__servises-list-item-home openClass'
                 >
                   <li>
                     <Link to="/aboutUs-contacts" className="body2 color-white">
