@@ -1,6 +1,6 @@
 import logo from "../../assets/img/home-logo.png";
 import "./header-styles.scss";
-import { addHeaderOpenClass } from '../../helpers/open/addOpenClass'
+import { addHeaderOpenClass } from '../../helpers/open/addHeaderOpenClass'
 import { Link } from "react-router-dom";
 
 const HomeHeder = () => {
