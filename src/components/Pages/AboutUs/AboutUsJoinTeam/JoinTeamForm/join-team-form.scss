@@ -58,6 +58,19 @@ transition: 0.5s;
   flex-direction: column;
   gap: 20px;
 
+  &-label{
+    position: relative;
+  }
+
+  &-error{
+    position: absolute;
+    top: -7px;
+    right: 20px;
+    background-color: $white;
+    padding: 0 10px;
+    color: red;
+  }
+
   &-file {
     display: none;
   }

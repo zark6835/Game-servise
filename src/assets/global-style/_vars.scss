@@ -141,10 +141,16 @@ $white: #ffffff;
   &-line {
     @extend .body;
     padding: 7px 16px;
-    background: $white;
+    background-color: $white;
     border: 1px solid #d7d7d7;
     border-radius: 4px;
     outline: none;
+    width: 100%;
+    
+    &.error{
+      border: 1px solid red;
+    }
+
   }
 
   &-message {
