@@ -1,7 +1,6 @@
 import { Field } from "formik";
 import * as Yup from "yup";
 
-//OOP
 const SignupSchema = Yup.object().shape({
   name: Yup.string()
     .min(2, "Too Short!")

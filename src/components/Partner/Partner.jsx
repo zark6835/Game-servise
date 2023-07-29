@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./partner.scss";
 
 const Partner = () => {
@@ -10,7 +11,7 @@ const Partner = () => {
         We are ready to discuss your project requirements
       </p>
       <div className="partner__btn-wrapepr">
-        <a href="#" className="partner__btn button-green">
+        <a href="/aboutUs-contacts" className="partner__btn button-green">
           Let’s talk
         </a>
       </div>
