@@ -11,7 +11,7 @@ const IndexHeder = () => {
 
     return ( 
         <header className="Index-Heder__bg">
-        <div className="Heder__wrapper container">
+        <nav className="Heder__wrapper container">
           <Link to="/" className="Heder__logo">
             <img src={logo} alt="logo" />
           </Link>
@@ -58,7 +58,7 @@ const IndexHeder = () => {
           </li>
           </ul>
           <Link to="/aboutUs-contacts" className="Index-Heder__btn body2">CONTACT US</Link>
-        </div>
+        </nav>
       </header> 
      );
 }

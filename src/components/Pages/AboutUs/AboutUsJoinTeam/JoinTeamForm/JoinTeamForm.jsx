@@ -34,13 +34,12 @@ const JoinTeamForm = () => {
       document.getElementById("link-form").click();
     }, 500);
   };
-
-  const [fileName, setFileName] = useState("");
-
   //по натисканю на кнопку додавання файлу викликає випадок click у <input type="file"/>
   const handleClick = () => {
     document.getElementById("input_file").click();
   };
+
+  /*const [fileName, setFileName] = useState("");
 
   //додає у поле назву файлу
   const handleFileChange = (event) => {
@@ -48,6 +47,12 @@ const JoinTeamForm = () => {
     if (file) {
       setFileName(file.name);
     }
+  };*/
+
+  // відсилає дані в консоль і очищює її
+  const dataSending = (value, {resetForm}) => {
+    console.log(value);
+    resetForm({value: ''})
   };
 
   return (
@@ -68,9 +73,7 @@ const JoinTeamForm = () => {
             message: "",
           }}
           validationSchema={JoinTeamSignupSchema}
-          onSubmit={(value) => {
-            console.log(value);
-          }}
+          onSubmit={dataSending}
         >
           {({ errors, touched, handleChange, values}) => (
             <Form className="form__input">
@@ -104,13 +107,14 @@ const JoinTeamForm = () => {
                   type={"text"}
                   placeholder={"Portfolio link"}
                   onChange={handleChange}
+                  value={values.portfolio}
                 />
               </label>
               <label className="form__input-wrapper">
                 <input
                   className="form__input-line"
                   disabled
-                  value={fileName}
+                  value={values.file}
                   type="text"
                   placeholder="Please Attach your CV File..."
                   name=""
@@ -120,9 +124,10 @@ const JoinTeamForm = () => {
                   name={"file"}
                   className={"form__input-file"}
                   id="input_file"
-                  onChange={handleFileChange}
+                  //onChange={handleFileChange}
                   type={"file"}
                   placeholder={"Portfolio link"}
+                  value={values.file}
                 />
                 <button
                   className="button__green-white"
@@ -138,6 +143,7 @@ const JoinTeamForm = () => {
                 type={"text"}
                 placeholder={"Message"}
                 onChange={handleChange}
+                value={values.message}
               />
               <button className="form__input-button button-form" type="submit">
                 Submit

@@ -10,7 +10,7 @@ import "./footer-styles.scss";
 const Footer = () => {
   return (
     <footer className="footer">
-      <div className="footer__list-margin">
+      <nav className="footer__list-margin">
         <ul className="footer__list-wrapper container">
           <li className="footer__list-social">
           <a href="/">
@@ -101,7 +101,7 @@ const Footer = () => {
             </ul>
           </li>
         </ul>
-      </div>
+      </nav>
       <div className="copyright ">
         <div className="copyright-wrapper container">
           <p className="copyright-paragraph">

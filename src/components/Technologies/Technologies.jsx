@@ -16,9 +16,9 @@ const Technologies = () => {
           and engaging entertainment software
         </p>
         <div className="technologies__img-wrapper">
-          <img className="technologies__img-android" src={android} alt="" />
-          <img className="technologies__img-apple" src={apple} alt="" />
-          <img className="technologies__img-unity" src={unity} alt="" />
+          <a href="/android-technologies"><img className="technologies__img-android" src={android} alt="" /></a>
+          <a href="/ios-technologies"><img className="technologies__img-apple" src={apple} alt="" /></a>
+          <a href="/unity-technologies"><img className="technologies__img-unity" src={unity} alt="" /></a>
         </div>
         <p className="technologies__paragraph">
           Our engineers develop applications for the most popular platforms.

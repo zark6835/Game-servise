@@ -1,10 +1,9 @@
 import React from "react";
 import Slider from "react-slick";
 
-import "./mainSlider.scss";
-
 import data from "../../data/mainSlider";
-import { Link } from "react-router-dom";
+
+import "./mainSlider.scss";
 
 const MainSlider = () => {
   const settings = {
@@ -27,12 +26,12 @@ const MainSlider = () => {
                 <h2 className="header1">{item.title}</h2>
                 <p className="card__paragraph body">{item.paragraph}</p>
                 <div className="card__btn-wrapper">
-                  <Link to="/portfolio" className="button-white">
+                  <a href="/portfolio" className="button-white">
                     MORE
-                  </Link>
-                  <Link to="/aboutUs-contacts" className="button-green">
+                  </a>
+                  <a href="/aboutUs-contacts" className="button-green">
                     Contact us
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>

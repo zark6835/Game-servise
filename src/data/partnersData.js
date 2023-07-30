@@ -70,6 +70,14 @@ const partnersData = [
     img: img14,
     id: 14
   },
+  {
+    img: img12,
+    id: 15
+  },
+  {
+    img: img10,
+    id: 16
+  },
 ];
 
 export default partnersData

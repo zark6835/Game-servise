@@ -10,9 +10,6 @@ import "./projects-slider.scss";
 
 const ProjectsSlider = () => {
 const slider = useRef(null)
-
-  
-
   const settings = {
     dots: false,
     arrows: false,

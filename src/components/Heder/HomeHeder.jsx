@@ -8,7 +8,7 @@ const HomeHeder = () => {
     <>
       <header className="Home">
         <div className="Home-Heder__bg">
-          <div className="Heder__wrapper container">
+          <nav className="Heder__wrapper container">
             <Link to="/" className="Heder__logo">
               <img src={logo} alt="logo" />
             </Link>
@@ -124,7 +124,7 @@ const HomeHeder = () => {
             <Link to="/aboutUs-contacts" className="Home-Heder__btn body2">
               CONTACT US
             </Link>
-          </div>
+          </nav>
         </div>
       </header>
     </>
