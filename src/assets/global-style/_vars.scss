@@ -97,6 +97,7 @@ $white: #ffffff;
     border: 2px solid $darkGreen;
     border-radius: 6px;
     background-color: $darkGreen;
+    width: max-content;
 
     @extend .body2;
 

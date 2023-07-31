@@ -16,10 +16,12 @@ import PortfolioPages from "../pages/Portfolio/PortfolioPages";
 import AboutUsTeamPages from "../pages/AboutUs/AboutUsTeamPages";
 import AboutUsJoinTeamPages from "../pages/AboutUs/AboutUsJoinTeamPages";
 import AboutUsContactsPages from "../pages/AboutUs/AboutUsContactsPages";
+import Pages404 from "../pages/Pages404";
 
 const Routing = () => (
   <Routes>
     <Route path="/" element={<IndexPages />} />
+    <Route path="/*" element={<Pages404 />} />
     <Route path="mobile-devrlopment" element={<MobilePages />} />
     <Route path="game-devrlopment" element={<GamePages />} />
     <Route path="vr-devrlopment" element={<VrPages />} />
