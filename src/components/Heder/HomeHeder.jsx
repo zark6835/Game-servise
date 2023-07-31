@@ -1,7 +1,8 @@
-import logo from "../../assets/img/home-logo.png";
-import "./header-styles.scss";
 import { addHeaderOpenClass } from '../../helpers/open/addHeaderOpenClass'
 import { Link } from "react-router-dom";
+
+import "./header-styles.scss";
+import logo from "../../assets/img/home-logo.png";
 
 const HomeHeder = () => {
   return (
@@ -14,8 +15,8 @@ const HomeHeder = () => {
             </Link>
             <ul className="Heder__list">
               <li className="Heder__list-item">
-                <div className="Heder__servises-list home">
-                  <p className='body2 color-white' onClick={addHeaderOpenClass}>
+                <div className="Heder__servises-list">
+                  <p className='body2 color-white home' onClick={addHeaderOpenClass}>
                     SERVICES
                   </p>
                 </div>
@@ -58,8 +59,8 @@ const HomeHeder = () => {
                 </ul>
               </li>
               <li className="Heder__list-item">
-                <div className="Heder__servises-list home">
-                  <p className='body2 color-white' onClick={addHeaderOpenClass}>
+                <div className="Heder__servises-list">
+                  <p className='body2 color-white home' onClick={addHeaderOpenClass}>
                     TECHNOLOGIES
                   </p>
                 </div>
@@ -92,9 +93,9 @@ const HomeHeder = () => {
                 </Link>
               </li>
               <li className="Heder__list-item">
-                <div className="Heder__servises-list home">
+                <div className="Heder__servises-list">
                   <p
-                    className='body2 color-white'
+                    className='body2 color-white home'
                     onClick={addHeaderOpenClass}
                   >
                     ABOUT US

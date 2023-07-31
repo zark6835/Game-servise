@@ -27,7 +27,7 @@ const JoinTeamSignupSchema = Yup.object().shape({
 
 const InputForm = ({error, touched, name, type, className, id, onChange, placeholder, value}) => {
     return ( 
-        <Field name={name} type={type} value={value} className={className} id={id} onChange={onChange} placeholder={placeholder}/>
+        <Field autocomplete="off" name={name} type={type} value={value} className={className} id={id} onChange={onChange} placeholder={placeholder}/>
      );
 }
  
