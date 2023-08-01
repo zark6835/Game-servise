@@ -22,7 +22,11 @@ const JoinTeamSignupSchema = Yup.object().shape({
     portfolio: Yup.string()
     .matches(/^(https?|ftp):\/\/[^\s/$.?#].[^\s]*$/, "Invalid Link")
     .required("Required"),
-  });
+
+    file: Yup.array().required("Required")
+   })
+   
+
 
 
 const InputForm = ({error, touched, name, type, className, id, onChange, placeholder, value}) => {
